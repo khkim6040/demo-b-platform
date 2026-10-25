@@ -12,6 +12,8 @@ dependencies {
     api(platform(libs.jackson.bom)) // security patch: overrides Boot's 3.1.7
     constraints {
         api("io.github.khkim6040.platform:platform-http-starter:${project.version}")
+        api("io.github.khkim6040.platform:platform-observability-starter:${project.version}")
+        api("io.github.khkim6040.platform:platform-resilience-starter:${project.version}")
     }
 }
 
